@@ -115,7 +115,7 @@ def select_difficulty():
                 sys.exit()
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if easy_rect.collidepoint(event.pos):
-                    return 2  # GRID_SIZE para fácil
+                    return 3  # GRID_SIZE para fácil
                 elif normal_rect.collidepoint(event.pos):
                     return 4  # GRID_SIZE para normal
                 elif hard_rect.collidepoint(event.pos):
